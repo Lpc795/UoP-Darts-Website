@@ -63,7 +63,7 @@ h1 {
 }
 
 .topnav {
-    background-color: 003B7A;
+    background-color: #003B7A;
     border-radius: 14px;
     padding: 6px 10px;
     display: flex;
@@ -88,3 +88,51 @@ h1 {
 .topnav a.active {
     background-color: #0057B8;
 }
+
+
+.league-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #262c3a;
+    color: white;
+    border-radius: 14px;
+    overflow: hidden;
+    font-size: 14px;
+}
+
+.league-table th {
+    background: #003B7A;
+    padding: 12px;
+    text-align: left;
+}
+
+.league-table td {
+    padding: 12px;
+    border-top: 1px solid #3a4256;
+}
+
+.league-table tr:hover {
+    background: #1e293b
+}
+
+.table-wrapper {
+    width: 450px;
+    margin-left: auto;
+    margin-top: 30px;
+}
+
+.table-wrapper h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.scroll-container {
+    max-height: 235px;
+    overflow-y: auto;
+    border-radius: 14px;
+}
+
+.scroll-container::-webkit-scrollbar {
+    display: none;
+}
+
