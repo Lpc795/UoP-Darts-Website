@@ -2,24 +2,53 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #FFFFFF;
-    color: # E0E0E0;
+    background-color: #1b1f2a;
+    color: #f1f5f9;
     line-height : 1.6;
     padding: 20px;
+}
+
+
+
+#logo h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+#logo {
+  text-decoration: none;
+  color: inherit;
 }
 
 h1 {
     font-family: 'Arial', sans-serif;
     text-align: center;
     font-size: 2.5rem;
-    color: #E0E0E0;
+    color: #f2f2f2;
     margin-top: 30px;
     margin-bottom: 10px;
 }
 
+#logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+#logo img {
+  width: 60px;
+  height: auto;
+}
+
+
 #icons i {
   font-size: 30px;
-  color: black;
+  color: white;
 }
 
 #icons img {
@@ -28,3 +57,34 @@ h1 {
   object-fit: contain;
 }
 
+#icons a {
+  text-decoration: none;
+  border: none;
+}
+
+.topnav {
+    background-color: 003B7A;
+    border-radius: 14px;
+    padding: 6px 10px;
+    display: flex;
+    gap: 18px;
+    width: fit-content
+}
+
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 10px;
+}
+
+.topnav a:hover {
+    background-color: #0A66D6;
+}
+
+.topnav a.active {
+    background-color: #0057B8;
+}
