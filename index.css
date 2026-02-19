@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 
 
 body {
@@ -15,9 +18,19 @@ body {
   font-size: 2.5rem;
 }
 
-#logo {
-  text-decoration: none;
-  color: inherit;
+
+.team-photo {
+    display: flex;
+    justify-content: center;
+}
+
+.team-photo img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  padding: 30px 0px;
+  border-radius: 50px;
+
 }
 
 h1 {
@@ -32,12 +45,14 @@ h1 {
 #logo {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   gap: 12px;
   font-size: 2.5rem;
   font-weight: bold;
   margin-top: 30px;
   margin-bottom: 10px;
+  text-decoration: none;
+  color: inherit;
 }
 
 #logo img {
@@ -45,6 +60,13 @@ h1 {
   height: auto;
 }
 
+#icons {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    margin-top: 20px;
+    align-items: center;
+}
 
 #icons i {
   font-size: 30px;
@@ -67,8 +89,9 @@ h1 {
     border-radius: 14px;
     padding: 6px 10px;
     display: flex;
-    gap: 18px;
-    width: fit-content
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .topnav a {
@@ -92,12 +115,12 @@ h1 {
 
 .league-table {
     width: 100%;
+    min-width: 100px;
     border-collapse: collapse;
     background: #262c3a;
     color: white;
-    border-radius: 14px;
     overflow: hidden;
-    font-size: 14px;
+    font-size: 10px;
 }
 
 .league-table th {
@@ -116,9 +139,9 @@ h1 {
 }
 
 .table-wrapper {
-    width: 450px;
-    margin-left: auto;
-    margin-top: 30px;
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
 }
 
 .table-wrapper h2 {
@@ -127,12 +150,21 @@ h1 {
 }
 
 .scroll-container {
-    max-height: 235px;
+    max-height: 200px;
     overflow-y: auto;
+    overflow-x: auto;
     border-radius: 14px;
+    width: 100%
 }
 
 .scroll-container::-webkit-scrollbar {
     display: none;
 }
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
 
