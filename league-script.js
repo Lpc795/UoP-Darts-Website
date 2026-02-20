@@ -16,7 +16,7 @@ async function loadLeagueTable() {
       <td>${team.ga}</td>
       <td>${team.gd}</td>
     `;
-    tbody.appendChild(row);
+    tbody.append(row);
   });
 }
 loadLeagueTable();

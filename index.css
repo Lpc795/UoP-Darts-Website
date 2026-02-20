@@ -11,8 +11,6 @@ body {
     padding: 20px;
 }
 
-
-
 #logo h1 {
   margin: 0;
   font-size: 2.5rem;
@@ -26,11 +24,9 @@ body {
 
 .team-photo img {
   width: 100%;
-  max-width: 500px;
+  max-width: 380px;
   height: auto;
   padding: 30px 0px;
-  border-radius: 50px;
-
 }
 
 h1 {
@@ -139,7 +135,7 @@ h1 {
 
 .table-wrapper {
     width: 100%;
-    max-width: 450px;
+    max-width: 380px;
     margin: 0 auto;
 }
 
@@ -164,6 +160,49 @@ html, body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+}
+
+.about {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+ul {
+    text-align: left;
+    font-size: 17px;
+}
+
+.contact p {
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+.join-now {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.join-btn {
+    background-color: #003B7A;
+    color: white;
+    padding: 10px 14px;
+    font-size: 17px;
+    text-decoration: none;
+    border-radius: 10px;
+    display: inline-block;
+    transition: 0.25s ease;
+}
+
+.join-btn:hover {
+    background-color: #0A66D6;
 }
 
 
@@ -201,6 +240,15 @@ html, body {
         overflow-y: auto;
         overflow-x: hidden;
     }
+
+  .team-photo img {
+      width: 100%;
+      max-width: 750px;
+      border-radius: 20px;
+  }
+}
+
+
 
 
 

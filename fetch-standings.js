@@ -13,11 +13,7 @@ async function fetchStandings() {
     return;
   }
 
-  const sorted = [...results].sort(
-    (a, b) => b.w - a.w || b.l - a.l || b.gf - a.gf || b.ga - a.ga || b.gd - a.gd
-  );
-
-  const table = sorted.map((team, index) => ({
+  const table = results.map((team, index) => ({
     pos: index + 1,
     team: team.name,
     p: team.p,
