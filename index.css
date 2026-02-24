@@ -115,7 +115,7 @@ h1 {
     background: #262c3a;
     color: white;
     overflow: hidden;
-    font-size: 10px;
+    font-size: 9px;
 }
 
 .league-table th {
@@ -135,7 +135,7 @@ h1 {
 
 .table-wrapper {
     width: 100%;
-    max-width: 380px;
+    max-width: 400px;
     margin: 0 auto;
 }
 
@@ -145,12 +145,14 @@ h1 {
 }
 
 .scroll-container {
-    max-height: 200px;
+    max-height: 230px;
     overflow-y: auto;
     overflow-x: auto;
     border-radius: 14px;
     width: 100%
 }
+
+
 
 .scroll-container::-webkit-scrollbar {
     display: none;
@@ -162,11 +164,18 @@ html, body {
     overflow-x: hidden;
 }
 
+section {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
 .about {
     max-width: 900px;
     margin: 0 auto;
     padding: 20px;
     line-height: 1.6;
+    text-align: center
 }
 
 h2 {
@@ -175,7 +184,7 @@ h2 {
 }
 
 ul {
-    text-align: left;
+    text-align: center;
     font-size: 17px;
 }
 
@@ -204,6 +213,32 @@ ul {
 .join-btn:hover {
     background-color: #0A66D6;
 }
+
+.teams ul, li {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+}
+
+.teams p {
+  text-align: center;
+}
+
+.teams {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.teams section {
+    margin: 0;
+    padding: 1rem;
+}
+
+.reserves {
+    text-align: center;
+
+}
+
 
 
 /* Desktop layout improvements */

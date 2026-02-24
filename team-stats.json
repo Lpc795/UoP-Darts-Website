@@ -1,0 +1,322 @@
+[
+  {
+    "seed": 1,
+    "name": "Ike Richman",
+    "w": 55,
+    "l": 9,
+    "maxs": 2,
+    "tonouts": 3,
+    "sheetlegs": 5,
+    "avg": 0
+  },
+  {
+    "seed": 2,
+    "name": "James Close",
+    "w": 49,
+    "l": 9,
+    "maxs": 2,
+    "tonouts": 2,
+    "sheetlegs": 2,
+    "avg": 0
+  },
+  {
+    "seed": 3,
+    "name": "Adam Simpson",
+    "w": 49,
+    "l": 16,
+    "maxs": 6,
+    "tonouts": 2,
+    "sheetlegs": 13,
+    "avg": 0
+  },
+      {
+    "seed": 4,
+    "name": "Ruben Coleman",
+    "w": 17,
+    "l": 17,
+    "maxs": 0,
+    "tonouts": 1,
+    "sheetlegs": 1,
+    "avg": 0
+  },
+    {
+    "seed": 5,
+    "name": "Connor Bailey",
+    "w": 43,
+    "l": 20,
+    "maxs": 0,
+    "tonouts": 2,
+    "sheetlegs": 3,
+    "avg": 0
+  },
+    {
+    "seed": 6,
+    "name": "Zach Young",
+    "w": 42,
+    "l": 19,
+    "maxs": 2,
+    "tonouts": 0,
+    "sheetlegs": 4,
+    "avg": 0
+  },
+    {
+    "seed": 7,
+    "name": "Charlie Worsley",
+    "w": 19,
+    "l": 9,
+    "maxs": 1,
+    "tonouts": 1,
+    "sheetlegs": 2,
+    "avg": 0
+  },
+    {
+    "seed": 8,
+    "name": "Eashan Patel",
+    "w": 53,
+    "l": 12,
+    "maxs": 4,
+    "tonouts": 2,
+    "sheetlegs": 7,
+    "avg": 0
+  },
+    {
+    "seed": 9,
+    "name": "Jack Wynn",
+    "w": 10,
+    "l": 13,
+    "maxs": 0,
+    "tonouts": 0,
+    "sheetlegs": 0,
+    "avg": 0
+  },
+    {
+    "seed": 10,
+    "name": "Haydn Illsley",
+    "w": 29,
+    "l": 14,
+    "maxs": 2,
+    "tonouts": 0,
+    "sheetlegs": 5,
+    "avg": 0
+  },
+    {
+    "seed": 11,
+    "name": "James Longbottom",
+    "w": 13,
+    "l": 17,
+    "maxs": 0,
+    "tonouts": 0,
+    "sheetlegs": 1,
+    "avg": 0
+  },
+    {
+    "seed": 12,
+    "name": "Rupert Gates",
+    "w": 23,
+    "l": 21,
+    "maxs": 2,
+    "tonouts": 0,
+    "sheetlegs": 0,
+    "avg": 0
+  },
+    {
+    "seed": 13,
+    "name": "Jack Glanville",
+    "w": 18,
+    "l": 18,
+    "maxs": 1,
+    "tonouts": 0,
+    "sheetlegs": 1,
+    "avg": 0
+  },
+    {
+    "seed": 14,
+    "name": "Oscar Bracken",
+    "w": 13,
+    "l": 2,
+    "maxs": 1,
+    "tonouts": 0,
+    "sheetlegs": 3,
+    "avg": 0
+  },
+    {
+    "seed": 15,
+    "name": "Aarron Gould",
+    "w": 0,
+    "l": 0,
+    "maxs": 0,
+    "tonouts": 0,
+    "sheetlegs": 0,
+    "avg": 0
+  },
+    {
+    "seed": 16,
+    "name": "Liam Green",
+    "w": 20,
+    "l": 17,
+    "maxs": 0,
+    "tonouts": 0,
+    "sheetlegs": 0,
+    "avg": 0
+  },
+    {
+    "seed": 17,
+    "name": "Kieran Jhuti",
+    "w": 16,
+    "l": 13,
+    "maxs": 0,
+    "tonouts": 1,
+    "sheetlegs": 0,
+    "avg": 0
+  },
+    {
+    "seed": 18,
+    "name": "Alfie Wyatt",
+    "w": 1,
+    "l": 5,
+    "maxs": 0,
+    "tonouts": 0,
+    "sheetlegs": 0,
+    "avg": 0
+  },
+    {
+    "seed": 19,
+    "name": "Alex Hooper",
+    "w": 1,
+    "l": 2,
+    "maxs": 0,
+    "tonouts": 0,
+    "sheetlegs": 0,
+    "avg": 0
+  },
+    {
+    "seed": 20,
+    "name": "Rowan Woolsgrove",
+    "w": 0,
+    "l": 0,
+    "maxs": 0,
+    "tonouts": 0,
+    "sheetlegs": 0,
+    "avg": 0
+  },
+    {
+    "seed": 21,
+    "name": "Louis Collins",
+    "w": 4,
+    "l": 3,
+    "maxs": 0,
+    "tonouts": 0,
+    "sheetlegs": 0,
+    "avg": 0
+  },
+    {
+    "seed": 22,
+    "name": "Austin Woodward",
+    "w": 0,
+    "l": 3,
+    "maxs": 0,
+    "tonouts": 0,
+    "sheetlegs": 0,
+    "avg": 0
+  },
+    {
+    "seed": 23,
+    "name": "Harvey Atkinson",
+    "w": 27,
+    "l": 16,
+    "maxs": 0,
+    "tonouts": 0,
+    "sheetlegs": 1,
+    "avg": 0
+  },
+    {
+    "seed": 24,
+    "name": "Adam Topham",
+    "w": 0,
+    "l": 0,
+    "maxs": 0,
+    "tonouts": 0,
+    "sheetlegs": 0,
+    "avg": 0
+  },
+    {
+    "seed": 25,
+    "name": "James Muir",
+    "w": 0,
+    "l": 0,
+    "maxs": 0,
+    "tonouts": 0,
+    "sheetlegs": 0,
+    "avg": 0
+  },
+    {
+    "seed": 26,
+    "name": "Lennon Smith",
+    "w": 0,
+    "l": 3,
+    "maxs": 0,
+    "tonouts": 0,
+    "sheetlegs": 0,
+    "avg": 0
+  },
+    {
+    "seed": 27,
+    "name": "Josh Watson",
+    "w": 0,
+    "l": 2,
+    "maxs": 0,
+    "tonouts": 0,
+    "sheetlegs": 0,
+    "avg": 0
+  },
+    {
+    "seed": 28,
+    "name": "Josh Forbes",
+    "w": 0,
+    "l": 0,
+    "maxs": 0,
+    "tonouts": 0,
+    "sheetlegs": 0,
+    "avg": 0
+  },
+    {
+    "seed": 29,
+    "name": "Callum Durrow",
+    "w": 0,
+    "l": 2,
+    "maxs": 0,
+    "tonouts": 0,
+    "sheetlegs": 0,
+    "avg": 0
+  },
+    {
+    "seed": 30,
+    "name": "Oliver Piper",
+    "w": 0,
+    "l": 0,
+    "maxs": 0,
+    "tonouts": 0,
+    "sheetlegs": 0,
+    "avg": 0
+  },
+    {
+    "seed": 31,
+    "name": "Kalan Popat",
+    "w": 0,
+    "l": 0,
+    "maxs": 0,
+    "tonouts": 0,
+    "sheetlegs": 0,
+    "avg": 0
+  },
+    {
+    "seed": 32,
+    "name": "Harry Brooks",
+    "w": 0,
+    "l": 0,
+    "maxs": 0,
+    "tonouts": 0,
+    "sheetlegs": 0,
+    "avg": 0
+  }
+]
