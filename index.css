@@ -328,19 +328,24 @@ ul {
 
 .instagram-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    justify-items: stretch;
     gap: 6px;
     max-width: 1000px;
     margin: 40px auto;
     padding: 0;
+
 }
 
 
 .instagram-embed {
-    max-width: 540px;
-    margin: 1px auto;
+    transform: scale(0.85);
+    transform-origin: top center;
+    width: 100%;
+    max-width: 260px;
+    margin: 0 auto;
 }
+
 
 .instagram-media {
     background: #262c3a !important;
@@ -352,8 +357,14 @@ ul {
     max-width: 260px !important;
     transform: scale(0.85);
     transform-origin: top center;
-    margin: 0 auto;
+    margin: 0 auto !important;
     min-height: 380px;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+.instagram-media.instagram-media-rendered {
+    opacity: 1;
 }
 
 
@@ -451,6 +462,12 @@ ul {
 .ig-caption a {
     color: #c9c8cd;
     text-decoration: none;
+}
+
+#insta-feed {
+    min-height: 600px;
+    position: relative;
+    z-index: 1;
 }
 
 

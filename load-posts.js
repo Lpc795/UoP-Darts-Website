@@ -5,12 +5,18 @@ async function loadPosts() {
   const container = document.getElementById("insta-feed");
 
   data.posts.forEach(url => {
-    const block = document.createElement("blockquote");
-    block.className = "instagram-media";
-    block.setAttribute("data-instgrm-permalink", url);
-    block.setAttribute("data-instgrm-version", "14");
-    container.appendChild(block);
+      const wrapper = document.createElement("section");
+      wrapper.className = "insta-wrapper";
+
+      const block = document.createElement("blockquote");
+      block.className = "instagram-media";
+      block.setAttribute("data-instgrm-permalink", url);
+      block.setAttribute("data-instgrm-version", "14");
+
+      wrapper.appendChild(block);
+      container.appendChild(wrapper);
   });
+
 
   if (window.instgrm) {
     window.instgrm.Embeds.process();

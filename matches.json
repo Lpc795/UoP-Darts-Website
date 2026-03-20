@@ -368,6 +368,14 @@
     "date": "2026-03-11"
   },
   {
+    "homeTeam": "UCFBW B",
+    "awayTeam": "Portsmouth B",
+    "homeWins": 5,
+    "awayWins": 6,
+    "outcome": "away",
+    "date": "2026-03-11"
+  },
+  {
     "homeTeam": "UCFBW A",
     "awayTeam": "Portsmouth B",
     "homeWins": 9,
@@ -376,11 +384,11 @@
     "date": "2026-03-11"
   },
   {
-    "homeTeam": "UCFBW B",
+    "homeTeam": "Winchester A",
     "awayTeam": "Portsmouth B",
     "homeWins": 5,
     "awayWins": 6,
     "outcome": "away",
-    "date": "2026-03-11"
+    "date": "2026-03-18"
   }
 ]
