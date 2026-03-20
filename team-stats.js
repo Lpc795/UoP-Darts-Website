@@ -10,11 +10,6 @@ async function loadStatsTable() {
     row.innerHTML = `
       <td>${team.seed}</td>
       <td>${team.name}</td>
-      <td>${team.w}</td>
-      <td>${team.l}</td>
-      <td>${team.maxs}</td>
-      <td>${team.tonouts}</td>
-      <td>${team.sheetlegs}</td>
     `;
     tbody.append(row);
   });

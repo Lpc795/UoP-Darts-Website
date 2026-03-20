@@ -1,0 +1,386 @@
+[
+  {
+    "homeTeam": "Portsmouth A",
+    "awayTeam": "Portsmouth B",
+    "homeWins": 8,
+    "awayWins": 3,
+    "outcome": "home",
+    "date": "2025-10-8"
+  },
+  {
+    "homeTeam": "Portsmouth B",
+    "awayTeam": "Portsmouth A",
+    "homeWins": 0,
+    "awayWins": 11,
+    "outcome": "away",
+    "date": "2025-10-8"
+  },
+  {
+    "homeTeam": "Portsmouth A",
+    "awayTeam": "Solent A",
+    "homeWins": 3,
+    "awayWins": 8,
+    "outcome": "away",
+    "date": "2025-10-15"
+  },
+  {
+    "homeTeam": "Portsmouth A",
+    "awayTeam": "Solent B",
+    "homeWins": 10,
+    "awayWins": 1,
+    "outcome": "home",
+    "date": "2025-10-15"
+  },
+  {
+    "homeTeam": "Portsmouth A",
+    "awayTeam": "Solent C",
+    "homeWins": 9,
+    "awayWins": 2,
+    "outcome": "home",
+    "date": "2025-10-15"
+  },
+  {
+    "homeTeam": "Portsmouth B",
+    "awayTeam": "Solent A",
+    "homeWins": 2,
+    "awayWins": 9,
+    "outcome": "away",
+    "date": "2025-10-15"
+  },
+  {
+    "homeTeam": "Portsmouth B",
+    "awayTeam": "Solent B",
+    "homeWins": 8,
+    "awayWins": 3,
+    "outcome": "home",
+    "date": "2025-10-15"
+  },
+  {
+    "homeTeam": "Portsmouth B",
+    "awayTeam": "Solent C",
+    "homeWins": 7,
+    "awayWins": 4,
+    "outcome": "home",
+    "date": "2025-10-15"
+  },
+  {
+    "homeTeam": "Portsmouth A",
+    "awayTeam": "Winchester A",
+    "homeWins": 10,
+    "awayWins": 1,
+    "outcome": "home",
+    "date": "2025-10-29"
+  },
+  {
+    "homeTeam": "Portsmouth B",
+    "awayTeam": "Winchester A",
+    "homeWins": 4,
+    "awayWins": 7,
+    "outcome": "away",
+    "date": "2025-10-29"
+  },
+  {
+    "homeTeam": "Bournemouth B",
+    "awayTeam": "Portsmouth A",
+    "homeWins": 1,
+    "awayWins": 10,
+    "outcome": "away",
+    "date": "2025-11-05"
+  },
+  {
+    "homeTeam": "Bournemouth A",
+    "awayTeam": "Portsmouth A",
+    "homeWins": 1,
+    "awayWins": 10,
+    "outcome": "away",
+    "date": "2025-11-05"
+  },
+  {
+    "homeTeam": "Bournemouth C",
+    "awayTeam": "Portsmouth A",
+    "homeWins": 0,
+    "awayWins": 11,
+    "outcome": "away",
+    "date": "2025-11-05"
+  },
+  {
+    "homeTeam": "Bournemouth B",
+    "awayTeam": "Portsmouth B",
+    "homeWins": 1,
+    "awayWins": 10,
+    "outcome": "away",
+    "date": "2025-11-05"
+  },
+  {
+    "homeTeam": "Bournemouth A",
+    "awayTeam": "Portsmouth B",
+    "homeWins": 7,
+    "awayWins": 4,
+    "outcome": "home",
+    "date": "2025-11-05"
+  },
+  {
+    "homeTeam": "Bournemouth C",
+    "awayTeam": "Portsmouth B",
+    "homeWins": 1,
+    "awayWins": 10,
+    "outcome": "away",
+    "date": "2025-11-05"
+  },
+  {
+    "homeTeam": "Southampton C",
+    "awayTeam": "Portsmouth A",
+    "homeWins": 2,
+    "awayWins": 9,
+    "outcome": "away",
+    "date": "2025-11-12"
+  },
+  {
+    "homeTeam": "Southampton A",
+    "awayTeam": "Portsmouth A",
+    "homeWins": 7,
+    "awayWins": 4,
+    "outcome": "home",
+    "date": "2025-11-12"
+  },
+  {
+    "homeTeam": "Southampton B",
+    "awayTeam": "Portsmouth A",
+    "homeWins": 1,
+    "awayWins": 10,
+    "outcome": "away",
+    "date": "2025-11-12"
+  },
+  {
+    "homeTeam": "Southampton C",
+    "awayTeam": "Portsmouth B",
+    "homeWins": 1,
+    "awayWins": 10,
+    "outcome": "away",
+    "date": "2025-11-12"
+  },
+  {
+    "homeTeam": "Southampton B",
+    "awayTeam": "Portsmouth B",
+    "homeWins": 5,
+    "awayWins": 6,
+    "outcome": "away",
+    "date": "2025-11-12"
+  },
+  {
+    "homeTeam": "Southampton A",
+    "awayTeam": "Portsmouth B",
+    "homeWins": 8,
+    "awayWins": 3,
+    "outcome": "home",
+    "date": "2025-11-12"
+  },
+  {
+    "homeTeam": "Portsmouth A",
+    "awayTeam": "UCFBW A",
+    "homeWins": 6,
+    "awayWins": 5,
+    "outcome": "home",
+    "date": "2025-11-26"
+  },
+  {
+    "homeTeam": "Portsmouth A",
+    "awayTeam": "UCFBW B",
+    "homeWins": 8,
+    "awayWins": 3,
+    "outcome": "home",
+    "date": "2025-11-26"
+  },
+  {
+    "homeTeam": "Portsmouth B",
+    "awayTeam": "UCFBW B",
+    "homeWins": 7,
+    "awayWins": 4,
+    "outcome": "home",
+    "date": "2025-11-26"
+  },
+  {
+    "homeTeam": "Portsmouth B",
+    "awayTeam": "UCFBW A",
+    "homeWins": 3,
+    "awayWins": 8,
+    "outcome": "away",
+    "date": "2025-11-26"
+  },
+  {
+    "homeTeam": "Solent A",
+    "awayTeam": "Portsmouth A",
+    "homeWins": 3,
+    "awayWins": 8,
+    "outcome": "away",
+    "date": "2026-02-04"
+  },
+  {
+    "homeTeam": "Solent B",
+    "awayTeam": "Portsmouth A",
+    "homeWins": 2,
+    "awayWins": 9,
+    "outcome": "away",
+    "date": "2026-02-04"
+  },
+  {
+    "homeTeam": "Solent C",
+    "awayTeam": "Portsmouth A",
+    "homeWins": 0,
+    "awayWins": 11,
+    "outcome": "away",
+    "date": "2026-02-04"
+  },
+  {
+    "homeTeam": "Solent B",
+    "awayTeam": "Portsmouth B",
+    "homeWins": 1,
+    "awayWins": 10,
+    "outcome": "away",
+    "date": "2026-02-04"
+  },
+  {
+    "homeTeam": "Solent C",
+    "awayTeam": "Portsmouth B",
+    "homeWins": 5,
+    "awayWins": 6,
+    "outcome": "away",
+    "date": "2026-02-04"
+  },
+  {
+    "homeTeam": "Solent A",
+    "awayTeam": "Portsmouth B",
+    "homeWins": 8,
+    "awayWins": 3,
+    "outcome": "home",
+    "date": "2026-02-04"
+  },
+  {
+    "homeTeam": "Portsmouth A",
+    "awayTeam": "Southampton B",
+    "homeWins": 9,
+    "awayWins": 2,
+    "outcome": "home",
+    "date": "2026-02-18"
+  },
+  {
+    "homeTeam": "Portsmouth A",
+    "awayTeam": "Southampton C",
+    "homeWins": 9,
+    "awayWins": 2,
+    "outcome": "home",
+    "date": "2026-02-18"
+  },
+  {
+    "homeTeam": "Portsmouth A",
+    "awayTeam": "Southampton A",
+    "homeWins": 8,
+    "awayWins": 3,
+    "outcome": "home",
+    "date": "2026-02-18"
+  },
+  {
+    "homeTeam": "Portsmouth B",
+    "awayTeam": "Southampton A",
+    "homeWins": 4,
+    "awayWins": 7,
+    "outcome": "away",
+    "date": "2026-02-18"
+  },
+  {
+    "homeTeam": "Portsmouth B",
+    "awayTeam": "Southampton B",
+    "homeWins": 7,
+    "awayWins": 4,
+    "outcome": "home",
+    "date": "2026-02-18"
+  },
+  {
+    "homeTeam": "Portsmouth B",
+    "awayTeam": "Southampton C",
+    "homeWins": 7,
+    "awayWins": 4,
+    "outcome": "home",
+    "date": "2026-02-18"
+  },
+  {
+    "homeTeam": "Portsmouth A",
+    "awayTeam": "Bournemouth A",
+    "homeWins": 9,
+    "awayWins": 2,
+    "outcome": "home",
+    "date": "2026-02-25"
+  },
+  {
+    "homeTeam": "Portsmouth A",
+    "awayTeam": "Bournemouth C",
+    "homeWins": 11,
+    "awayWins": 0,
+    "outcome": "home",
+    "date": "2026-02-25"
+  },
+  {
+    "homeTeam": "Portsmouth A",
+    "awayTeam": "Bournemouth B",
+    "homeWins": 8,
+    "awayWins": 3,
+    "outcome": "home",
+    "date": "2026-02-25"
+  },
+  {
+    "homeTeam": "Portsmouth B",
+    "awayTeam": "Bournemouth C",
+    "homeWins": 8,
+    "awayWins": 3,
+    "outcome": "home",
+    "date": "2026-02-25"
+  },
+  {
+    "homeTeam": "Portsmouth B",
+    "awayTeam": "Bournemouth A",
+    "homeWins": 7,
+    "awayWins": 4,
+    "outcome": "home",
+    "date": "2026-02-25"
+  },
+  {
+    "homeTeam": "Portsmouth B",
+    "awayTeam": "Bournemouth B",
+    "homeWins": 5,
+    "awayWins": 6,
+    "outcome": "away",
+    "date": "2026-02-25"
+  },
+  {
+    "homeTeam": "UCFBW B",
+    "awayTeam": "Portsmouth A",
+    "homeWins": 1,
+    "awayWins": 10,
+    "outcome": "away",
+    "date": "2026-03-11"
+  },
+  {
+    "homeTeam": "UCFBW A",
+    "awayTeam": "Portsmouth A",
+    "homeWins": 7,
+    "awayWins": 4,
+    "outcome": "home",
+    "date": "2026-03-11"
+  },
+  {
+    "homeTeam": "UCFBW A",
+    "awayTeam": "Portsmouth B",
+    "homeWins": 9,
+    "awayWins": 2,
+    "outcome": "home",
+    "date": "2026-03-11"
+  },
+  {
+    "homeTeam": "UCFBW B",
+    "awayTeam": "Portsmouth B",
+    "homeWins": 5,
+    "awayWins": 6,
+    "outcome": "away",
+    "date": "2026-03-11"
+  }
+]

@@ -9,6 +9,7 @@
   <link rel="icon" type="image/x-icon" href="/assets/logo.png">
   <link rel="stylesheet" href="index.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
 
 <body>
@@ -21,23 +22,21 @@
 
     <nav class="topnav">
       <a href="index.html">Home</a>
-      <a href="news.html">News</a>      <a class="active" href="contact.html">Contact</a>
+      <a class="active" href="news.html">News</a>
+      <a href="contact.html">Contact</a>
       <a href="about.html">About</a>
       <a href="stats.html">Stats</a>
       <a href="teams.html">Teams</a>
       <a href="matches.html">Matches</a>
       <a href="#">Committee</a>
-
     </nav>
 
-    <article class="contact">
-        <h2>Contact Us</h2>
+    <section class="instagram-grid" id="insta-feed"></section>
 
-        <p>Email: Darts@upsu.net</p>
-        <p>Follow us at uopdarts on Instagram
-            for updates on events and meetups.
-        </p>
-    </article>
+    <script async src="//www.instagram.com/embed.js"></script>
+
+
+
 
     <footer id="icons">
       <a href="https://www.instagram.com/uopdarts/" target="+blank">
@@ -51,7 +50,11 @@
       <a href="https://upsu.net/groups/DQCFD/darts-society" target="+blank">
         <img src="/assets/upsu.png" alt="UPSU" class="icon">
       </a>
+
+
     </footer>
+    <script src="load-posts.js"></script>
+
 
   </body>
 </html>
