@@ -1,79 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Uop Darts</title>
-  <link rel="icon" type="image/x-icon" href="/assets/logo.png">
-  <link rel="stylesheet" href="/index/index.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
-  <script src="/admin/tournament-setup.js"></script>
+    <meta charset="UTF-8">
+    <title>Tournaments</title>
+    <link rel="stylesheet" href="/index/index.css">
 </head>
-
 <body>
-  <header id="container">
-    <a href="admin.html" id="logo">
-      <img src="/assets/logo.png" alt="logo png">
-      <h1>UOP DARTS</h1>
-    </a>
-  </header>
 
-    <nav class="topnav">
-      <a href="admin.html">Dashboard</a>
-      <a class="active" href="#">Tournaments</a>
-      <a href="#">Matches</a>
-      <a href="#">Rankings</a>
-    </nav>
+<div id="logo">
+    <img src="/assets/logo.png" alt="Logo">
+    <h1>Tournaments</h1>
+</div>
 
-    <section class="Knockouts">
-        <a href="#" class="option-btn" onclick="showKnockoutSetup()">Knockouts</a>
+<div class="topnav">
+    <a href="/admin/admin.html">Dashboard</a>
+    <a href="/admin/tournaments.html" class="active">Tournaments</a>
+    <a href="#">Matches</a>
+    <a href="#">Rankings</a>
+</div>
 
-        <a href="#" class="option-btn">
-            Group Stage
-        </a>
-    </section>
+<section id="tournament-setup" style="text-align:center; margin-top:40px;">
+    <h2>Create a Knockout Tournament</h2>
 
-    <section id="knockout-setup" style="display:none; margin-top:30px; text-align:center;">
-    <h2>Knockout Tournament Setup</h2>
-
-        <div class="setup-row">
-            <label for="player-count">Number of players:</label>
-            <input type="number" id="player-count" min="2" max="128" required>
-        </div>
-
-        <div class="setup-row">
-            <label for="losers-bracket">Losers bracket?</label>
-            <input type="checkbox" id="losers-bracket">
-        </div>
-
-
+    <div class="setup-row" style="justify-content:center;">
+        <label for="player-count" style="width:180px; text-align:right; padding-right:10px;">
+            Number of players:
+        </label>
+        <input type="number" id="player-count" min="2" max="128"
+               style="padding:8px 12px; font-size:16px; border-radius:6px; border:1px solid #444; background:#1c1c1c; color:white;">
     </div>
 
-    <button class="continue-btn" onclick="submitKnockoutSetup()">Continue</button>
+    <div class="join-now">
+        <a class="join-btn" href="#" onclick="goToKnockouts()">Knockouts</a>
+    </div>
 </section>
 
+<script src="/admin/tournaments.js"></script>
 
-
-    <footer id="icons">
-      <a href="https://www.instagram.com/uopdarts/" target="+blank">
-        <i class="fa-brands fa-instagram"></i>
-      </a>
-
-      <a href="https://www.uduk.co.uk/" target="+blank">
-        <img src="/assets/uduk.png" alt="UDUK" class="icon">
-      </a>
-
-      <a href="https://upsu.net/groups/DQCFD/darts-society" target="+blank">
-        <img src="/assets/upsu.png" alt="UPSU" class="icon">
-      </a>
-
-      <a href="/index/index.html">
-          <i class="fa-solid fa-house"></i>
-      </a>
-    </footer>
-
-  </body>
+</body>
 </html>
