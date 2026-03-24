@@ -7,10 +7,10 @@
 
   <title>Uop Darts</title>
   <link rel="icon" type="image/x-icon" href="/assets/logo.png">
-  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="/index/index.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-  <script src="league-script.js"></script>
+  <script src="/index/league-script.js"></script>
 </head>
 
 <body>
@@ -21,26 +21,26 @@
     </a>
   </header>
 
-    <nav class="topnav">
-      <a class="active" href="index.html">Home</a>
-      <a href="news.html">News</a>      <a href="contact.html">Contact</a>
-      <a href="about.html">About</a>
-      <a href="stats.html">Stats</a>
-      <a href="teams.html">Teams</a>
-      <a href="matches.html">Matches</a>
-      <a href="#">Committee</a>
-    </nav>
+  <nav class="topnav">
+    <a class="active" href="/index/index.html">Home</a>
+    <a href="/index/news.html">News</a>
+    <a href="/index/contact.html">Contact</a>
+    <a href="/index/about.html">About</a>
+    <a href="/index/stats.html">Stats</a>
+    <a href="/index/teams.html">Teams</a>
+    <a href="/index/matches.html">Matches</a>
+    <a href="#">Committee</a>
+  </nav>
 
   <main>
     <section class="team-photo">
       <img src="/assets/team-photo.jpg" alt="team-photo">
     </section>
 
-    <section class ="table-wrapper">
+    <section class="table-wrapper">
       <h2>UDUK South</h2>
 
       <div class="scroll-container">
-
         <table class="league-table">
           <thead>
             <tr>
@@ -54,30 +54,29 @@
               <th>GD</th>
             </tr>
           </thead>
-
           <tbody id="league-body"></tbody>
         </table>
-        </div>
-     </section>
+      </div>
+    </section>
   </main>
 
+  <footer id="icons">
+    <a href="https://www.instagram.com/uopdarts/" target="_blank">
+      <i class="fa-brands fa-instagram"></i>
+    </a>
 
-    <footer id="icons">
-      <a href="https://www.instagram.com/uopdarts/" target="_blank">
-        <i class="fa-brands fa-instagram"></i>
-      </a>
+    <a href="https://www.uduk.co.uk/" target="_blank">
+      <img src="/assets/uduk.png" alt="UDUK" class="icon">
+    </a>
 
-      <a href="https://www.uduk.co.uk/" target="_blank">
-        <img src="/assets/uduk.png" alt="UDUK" class="icon">
-      </a>
+    <a href="https://upsu.net/groups/DQCFD/darts-society" target="_blank">
+      <img src="/assets/upsu.png" alt="UPSU" class="icon">
+    </a>
 
-      <a href="https://upsu.net/groups/DQCFD/darts-society" target="_blank">
-        <img src="/assets/upsu.png" alt="UPSU" class="icon">
-      </a>
-
-      <a href="/admin/login.html">
-        <i class="fa-solid fa-user-lock"></i>
-      </a>
-    </footer>
-  </body>
+    <!-- changed to match server route -->
+    <a href="/admin/login.html">
+      <i class="fa-solid fa-user-lock"></i>
+    </a>
+  </footer>
+</body>
 </html>

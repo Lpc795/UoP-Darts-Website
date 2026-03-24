@@ -9,6 +9,8 @@
   <link rel="icon" type="image/x-icon" href="/assets/logo.png">
   <link rel="stylesheet" href="/index/index.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <script src="/admin/tournament-setup.js"></script>
 </head>
 
 <body>
@@ -20,13 +22,38 @@
   </header>
 
     <nav class="topnav">
-      <a class="active" href="admin.html">Dashboard</a>
-      <a href="tournaments.html">Tournaments</a>
+      <a href="admin.html">Dashboard</a>
+      <a class="active" href="#">Tournaments</a>
       <a href="#">Matches</a>
       <a href="#">Rankings</a>
-
-
     </nav>
+
+    <section class="Knockouts">
+        <a href="#" class="option-btn" onclick="showKnockoutSetup()">Knockouts</a>
+
+        <a href="#" class="option-btn">
+            Group Stage
+        </a>
+    </section>
+
+    <section id="knockout-setup" style="display:none; margin-top:30px; text-align:center;">
+    <h2>Knockout Tournament Setup</h2>
+
+        <div class="setup-row">
+            <label for="player-count">Number of players:</label>
+            <input type="number" id="player-count" min="2" max="128" required>
+        </div>
+
+        <div class="setup-row">
+            <label for="losers-bracket">Losers bracket?</label>
+            <input type="checkbox" id="losers-bracket">
+        </div>
+
+
+    </div>
+
+    <button class="continue-btn" onclick="submitKnockoutSetup()">Continue</button>
+</section>
 
 
 

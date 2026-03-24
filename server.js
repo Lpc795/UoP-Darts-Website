@@ -19,24 +19,35 @@ app.use(
     secret: "change-this-secret",
     resave: false,
     saveUninitialized: false,
-    cookie: { secure: false }
+    cookie: { secure: false },
   })
 );
 
-// Serve ALL static files from project root
+// Serve ALL static files from the project root
 app.use(express.static(__dirname));
 
-// Fake admin user (replace later)
+// Simple in-memory admin user
 const ADMIN_USER = {
   username: "admin",
   // bcrypt hash for "password123"
-  passwordHash: "$2b$10$0alVvBz.G4824vIaHIva/eWx6dnMayEmPzM1apffO15ThVzP2mzq2"
+  passwordHash:
+    "$2b$10$lXUMnq50lGRp21aQKRcVy.0A7HCd3OCHYg/vDOli5Ch8v/IHZmt9.",
 };
 
-// Redirect root → login page
+// Root → index/index.html
 app.get("/", (req, res) => {
-  res.redirect("/admin/login.html");
+  res.sendFile(path.join(__dirname, "index", "index.html"));
 });
+
+// Admin login page
+app.get("/admin/login", (req, res) => {
+  res.sendFile(path.join(__dirname, "admin", "login.html"));
+});
+
+app.get("/admin/knockouts", (req, res) => {
+  res.sendFile(__dirname + "/admin/knockouts.html");
+});
+
 
 // Login handler
 app.post("/login", async (req, res) => {
@@ -58,16 +69,17 @@ app.post("/login", async (req, res) => {
 // Protected admin page
 app.get("/admin", (req, res) => {
   if (!req.session.isAdmin) {
-    return res.redirect("/admin/login.html");
+    return res.redirect("/admin/login");
   }
 
-  res.send("<h1>Welcome Admin</h1><p>You are logged in.</p>");
+  res.sendFile(path.join(__dirname, "admin", "admin.html"));
 });
+
 
 // Logout
 app.get("/logout", (req, res) => {
   req.session.destroy(() => {
-    res.redirect("/admin/login.html");
+    res.redirect("/admin/login");
   });
 });
 
