@@ -1,4 +1,4 @@
-/* Global reset */
+
 * {
     box-sizing: border-box;
 }
@@ -15,7 +15,6 @@ body {
     min-height: 100vh;
 }
 
-/* Login container */
 .login-container {
     background: #262c3a;
     padding: 40px 32px;
@@ -25,7 +24,7 @@ body {
     box-shadow: 0 0 25px rgba(0,0,0,0.4);
 }
 
-/* Title */
+
 .login-container h2 {
     text-align: center;
     font-size: 2rem;
@@ -33,7 +32,7 @@ body {
     color: #f2f2f2;
 }
 
-/* Labels */
+
 label {
     display: block;
     margin-bottom: 6px;
@@ -41,7 +40,7 @@ label {
     opacity: 0.85;
 }
 
-/* Inputs */
+
 input {
     width: 100%;
     padding: 12px;
@@ -57,7 +56,7 @@ input:focus {
     outline: 2px solid #0A66D6;
 }
 
-/* Button */
+
 button {
     width: 100%;
     padding: 12px;
@@ -74,7 +73,7 @@ button:hover {
     background-color: #0A66D6;
 }
 
-/* Footer text */
+
 .footer-text {
     text-align: center;
     margin-top: 15px;
